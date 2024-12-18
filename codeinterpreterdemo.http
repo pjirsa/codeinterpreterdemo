@@ -1,0 +1,6 @@
+@codeinterpreterdemo_HostAddress = http://localhost:5067
+
+GET {{codeinterpreterdemo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
