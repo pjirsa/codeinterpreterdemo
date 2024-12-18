@@ -1,6 +1,7 @@
 @codeinterpreterdemo_HostAddress = http://localhost:5067
+@message = "Use code to determine the values in the Fibonacci sequence that are less than the value of 101"
 
-GET {{codeinterpreterdemo_HostAddress}}/weatherforecast/
+GET {{codeinterpreterdemo_HostAddress}}/chatwithassistant?message={{message}}
 Accept: application/json
 
 ###
